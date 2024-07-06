@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{ 
+    height: 100px;
+    width: 100vw;
+    padding: 0 3vw ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+span{
+    color: #0189FF;
+    font-size: 2vw;
+}
+.navp1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navp2{
+    display: flex;
+    gap: 20px;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.navp3{
+    display: flex;
+}
+nav .menu {
+    display: none;
+}
+.hero{
+    height: 80vh;
+    width: 100vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.herop1{
+    width: 55%;
+    height: 100%;
+    
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+.herop1 h3{
+    font-size: 3vw;
+    font-weight: 600;
+    font-style: italic;
+}
+.herop1 h1{
+    font-size: 4vw;
+}
+.herop1 p{
+    font-size: 2vw;
+    padding: 5px 0 ;
+
+}
+.navp3 i{
+    color: #0189FF;
+    font-size: 20px;
+    
+}
+.cta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.btn{
+    background-color: #0189FF;
+    padding: 5px 14px ;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+button{
+   
+    padding: 5px 14px ;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+#herospan{
+    color: 0189FF;
+    font-size: 4vw;
+}
+.herop2{
+    width: 45%;
+    height: 100%;
+    
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+}
+@media (max-width:600px) {
+
+    .navp2,.navp3{
+        display: none;
+    }
+    nav .menu{
+        display: block;
+        font-weight: 800;
+        font-size: 25px;
+        
+    }
+    .hero{
+        height: 80vh;
+        width: 100vw;
+        padding: 2vw;
+        display: flex;
+        justify-content: space-between; 
+    }
+    
+    .cta{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+    .btn{
+        background-color: #0189FF;
+        padding: 5px 14px ;
+        border-radius: 5px;
+        font-size: 10px;
+        border: 2px solid black;
+    
+    }
+    button{
+       
+        padding: 5px 14px ;
+        border-radius: 5px;
+        font-size: 10px;
+        border: 2px solid black;
+    }
+    .herop1{
+        width: 55%;
+        height: 100%;
+        
+        padding: 1vw;
+        display: flex;
+        flex-direction: column;
+        
+        gap: 10px;
+    }
+    .herop1 h3{
+        font-size: 4vw;
+        font-weight: 600;
+        font-style: italic;
+    }
+    .herop1 h1{
+        font-size: 5vw;
+    }
+    .herop1 p{
+        font-size: 3vw;
+        padding: 5px 0 ;
+    
+    }
+    #herospan{
+        color: #0189FF;
+        font-size: 4vw;
+    }
+    .herop1{
+        width: 80%;
+        height: 100%;
+        
+        padding: 1vw;
+        display: flex;
+        flex-direction: column;
+        
+        gap: 10px;
+    }
+}
+
